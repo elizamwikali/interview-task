@@ -1,0 +1,378 @@
+body {
+  transform: translateZ(0);
+}
+.header{
+    bottom: 0;
+    clear: both;
+    width: 100%;
+    z-index: 100;
+}/* Important styles */
+ 
+.left-menu{
+  padding-left: 40px;
+}
+.left-menu after::{
+    clear: both;
+    margin-bottom: 84px;;
+}
+.fixed{
+	padding-top: 23px;
+	border-bottom: 2px solid gray;
+	background-attachment: fixed;
+	background-color: transparent;
+	position: fixed;
+	clear: both;
+}
+
+/*.image-banner{
+	background-image: url(../images/p1.jpg);
+	 background-size: 100%;
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 49.5%;
+  background-repeat: no-repeat;
+  	clear: both;
+}*/
+
+.image-banner{
+	background-image: url(../images/p1.jpg);
+position:relative;
+width:100%;
+margin:0 auto;
+z-index:10;
+padding-bottom: 7.5%;
+ background-size: 100%;
+ background-size: contain;
+ background-repeat: no-repeat;
+ clear: both;
+}
+.text-banner{
+	color: #fff;
+	margin-top: 60%;
+	font-size: 30px;
+	font-weight: bolder;
+}
+.download-button{
+	padding: 7px;
+	border-radius: 25px;
+	background-color: orange;
+	width: 130px;
+	margin-top: 22px;
+	color: #fff;
+	clear: both;
+	font-size: 15px;
+	text-align: center;
+
+
+}
+.download-text {
+    padding: 7px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 130px;
+    margin-top: -38px;
+    color: #fff;
+    clear: both;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 169px;
+}
+.length{
+	display: block;
+	width: 350px;
+}
+.one img {
+    margin-left: 59px;
+    margin-top: 206px;
+}
+.image-left{
+	margin-left: 49%;
+	margin-top: 5%;
+
+}
+ .box{
+box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.4);
+z-index: 2;
+margin-top: -10px;
+}
+ .download-button1{
+  padding: 7px;
+  border-radius: 25px;
+  background-color: #6666cc;
+  width: 130px;
+  margin-top: 1px;
+  color: #ffffff;
+  clear: both;
+  font-size: 15px;
+  text-align: center;
+}
+.naimo{
+  background-color:#6666cc;
+}
+ .download-button2{
+  padding: 7px;
+  border-radius: 25px;
+  background-color: #cc9900;
+  width: 130px;
+  margin-top: 1px;
+  color: #ffffff;
+  clear: both;
+  font-size: 15px;
+  text-align: center;
+}
+.bigeni{
+  background-color:#6666cc;
+}
+.lucky{
+ background-image: url(../images/p1.jpg);
+ margin-top: 28px;
+ }
+ .icons .fa {
+  font-size: 30px;
+  width: 58px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.icons .fa:hover {
+    opacity: 0.7;
+    color:#c19b00;
+}
+
+.icons .fa-facebook {
+  background: #876bcb;
+  color: white;
+     padding-left: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.icons .fa-twitter {
+  background: #876bcb;
+  color: white;
+      padding-left: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.icons .fa-youtube {
+  background: #876bcb;
+  color: white;
+      padding-left: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.icons{
+      margin-left: 606px;
+}
+.download-button4{
+  padding: 7px;
+  border-radius:25px; 
+   border-color: #cc9900;
+  width: 130px;
+  background-color: #ffffff;
+  margin-top: 1px;
+  color: #7251c2;
+  clear: both;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 92px;
+}
+.download-button5{
+  padding: 7px;
+  border-radius: 25px;
+  background-color: #cc9900;
+  width: 130px;
+  margin-top: 1px;
+  color: #ffffff;
+  clear: both;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 92px;
+}
+.download-button6{
+  padding: 7px;
+  border-radius:25px; 
+   border-color: #cc9900;
+  width: 130px;
+  background-color: #ffffff;
+  margin-top: 1px;
+  color: #7251c2;
+  clear: both;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 92px;
+}
+.app{
+  background-color:#6666cc;
+  margin-top: 80px;
+ height: 300px;
+}
+.download-button7{
+  padding: 7px;
+  border-radius:25px; 
+   border-color: #cc9900;
+  width: 130px;
+  background-color: #7251c2;
+  margin-top: 1px;
+  color: #ffffff;
+  clear: both;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 92px;
+}
+.download-button8{
+  padding: 7px;
+  border-radius:25px; 
+   border-color: #cc9900;
+  width: 130px;
+  background-color: #c19b00;
+  margin-top: 1px;
+  color: #ffffff;
+  clear: both;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 92px;
+}
+ .download-button9{
+  padding: 7px;
+  border-radius:25px; 
+   border-color: #cc9900;
+  width: 130px;
+  background-color: #7251c2;
+  margin-top: 1px;
+  color: #ffffff;
+  clear: both;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 92px;
+}
+.faqs{
+      margin-left: 92px;
+}
+.contact{
+  background-color:#7251c2;
+}
+.lalu input[type=text], select, textarea {
+       width: 100%;
+       padding: 12px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       box-sizing: border-box;
+       margin-top: 6px;
+       margin-bottom: 16px;
+       resize: vertical;
+      }
+
+.lalu input[type=send] {
+       background-color: #ffffff;
+       color:#7251c2  ;
+       padding: 12px 20px;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+      }
+
+.lalu input[type=send]:hover {
+       background-color: #ffffff;
+}
+.lalu{
+  margin-left: -50px;
+}
+.details{
+  background-color:#ffffff;
+      margin-left: 82px;
+      height: 254px;
+ }
+ .footer .fa {
+      padding: 25px;
+    font-size: 35px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 11px; 
+}
+.footer{
+      margin-top: 26px;
+}
+.footer .fa:hover {
+    opacity: 0.7;
+    color:#c19b00;
+}
+.footer .fa-facebook {
+  background: #ffffff;
+    color:#7f65c7;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-top: 10px;
+}
+.footer .fa-twitter {
+ background: #ffffff;
+    color:#7f65c7;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-top: 10px;
+}
+.footer .fa-youtube {
+background: #ffffff;
+    color:#7f65c7;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-top: 10px;
+}
+.footer .fa-dribbble {
+  background: #ffffff;
+    color:#7f65c7;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-top: 10px;
+}
+.footer .fa-google-plus {
+  background: #ffffff;
+    color:#7f65c7;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-top: 10px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
